@@ -76,7 +76,18 @@ a {
   color: inherit;/*herda do pai*/
 }
 
-ul[role="list"] {
+a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%);
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;/*tem que deixar trasnparente para poder ver o efeito ao invés da cor do texto*/
+}
+
+ul[role="list"]/*essa role faz o navegador considerar o ul uma lista, pois o list-style tira essa propriedade*/ {
   list-style: none;
 }
 

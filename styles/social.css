@@ -1,0 +1,45 @@
+a.social {
+  --bg-img: "";
+  background-image: var(--bg-img);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+
+  -webkit-background-clip: initial;
+  background-clip: initial;
+
+  &[aria-label="tiktok"]/*aqui seleciona a tag a que tiver um aria-label = tiktok*/ {
+    --bg-img: url(../assets/icons/tiktok.svg);
+  
+    &:hover {
+      --bg-img: url(../assets/icons/tiktok-hover.svg);
+    }
+  }
+
+  &[aria-label="instagram"]/*aqui seleciona a tag a que tiver um aria-label = instagram*/ {
+    --bg-img: url(../assets/icons/instagram.svg);
+  
+    &:hover {
+      --bg-img: url(../assets/icons/instagram-hover.svg);
+    }
+  }
+
+  &[aria-label="twitter"]/*aqui seleciona a tag a que tiver um aria-label = twitter*/ {
+    --bg-img: url(../assets/icons/twitter.svg);
+  
+    &:hover {
+      --bg-img: url(../assets/icons/twitter-hover.svg);
+    }
+  }
+
+  &[aria-label="discord"]/*aqui seleciona a tag a que tiver um aria-label = discord*/ {
+    --bg-img: url(../assets/icons/discord.svg);
+  
+    &:hover {
+      --bg-img: url(../assets/icons/discord-hover.svg);
+    }
+  }
+}
+
+  /*LEMBRAR QUE TEVE TODO O ESQUEMA DE MUDAR AS CORES PELO SVG EM FILD... E A OUTRA TAG EMBAIXO DE FIL
+  ESSAS FORAM COPIADAS PELO SVG NA FIGURA DO FIGMA*/
