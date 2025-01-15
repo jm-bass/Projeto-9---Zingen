@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 20,
+    "editor.lineHeight": 1.6,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.glyphMargin": false, // espaço à esquerda dos números que indicam as linhas
+    "files.autoSave": "afterDelay",
+  
+    // zen mode
+    "zenMode.fullScreen": false, // meche na tela cheia
+    "zenMode.centerLayout": false, // ao invés de centralizado joga as coisas para a lateral esquerda
+    "zenMode.showTabs": "single" // deixa mostrando só uma aba
+  }
